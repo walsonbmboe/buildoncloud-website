@@ -23,13 +23,13 @@ function HeroSection() {
 
   return (
     <section className="relative flex min-h-[80vh] items-center overflow-hidden md:min-h-screen">
-      {/* Background: clean white with subtle gradient shapes */}
+      {/* Background: navy dark with subtle gradient shapes */}
       <div className="pointer-events-none absolute inset-0" aria-hidden="true">
-        <div className="absolute inset-0 bg-gradient-to-br from-white via-blue-50/30 to-purple-50/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-navy-950 via-navy-900 to-charcoal-900" />
         {/* Decorative gradient blobs */}
-        <div className="absolute -top-32 -right-32 h-[500px] w-[500px] rounded-full bg-gradient-to-br from-purple-400/20 to-pink-400/10 blur-3xl" />
-        <div className="absolute -bottom-48 -left-32 h-[400px] w-[400px] rounded-full bg-gradient-to-tr from-blue-400/15 to-cyan-400/10 blur-3xl" />
-        <div className="absolute top-1/3 left-1/2 h-[300px] w-[300px] rounded-full bg-gradient-to-r from-electric-500/5 to-purple-500/5 blur-2xl" />
+        <div className="absolute -top-32 -right-32 h-[500px] w-[500px] rounded-full bg-gradient-to-br from-purple-500/15 to-pink-500/8 blur-3xl" />
+        <div className="absolute -bottom-48 -left-32 h-[400px] w-[400px] rounded-full bg-gradient-to-tr from-blue-500/15 to-cyan-500/10 blur-3xl" />
+        <div className="absolute top-1/3 left-1/2 h-[300px] w-[300px] rounded-full bg-gradient-to-r from-electric-500/8 to-purple-500/8 blur-2xl" />
       </div>
 
       {/* Hero content: split layout */}
@@ -42,14 +42,14 @@ function HeroSection() {
             animate="visible"
           >
             <motion.h1
-              className="text-4xl font-bold leading-tight text-heading text-balance md:text-5xl lg:text-6xl"
+              className="text-4xl font-bold leading-tight text-white text-balance md:text-5xl lg:text-6xl"
               variants={variants.fadeUp}
             >
               Empowering African Businesses Through Digital Transformation
             </motion.h1>
 
             <motion.p
-              className="mt-6 text-lg text-body md:text-xl"
+              className="mt-6 text-lg text-gray-300 md:text-xl"
               variants={variants.fadeUp}
             >
               From Cameroon to the rest of Africa, we build intelligent technology solutions that help businesses of all sizes compete, grow, and thrive in the digital economy. Whether you're a startup, SME, or enterprise — the future is digital, and it starts here.
@@ -133,12 +133,12 @@ const valuePropositions = [
 
 function HomePage() {
   return (
-    <div>
+    <div className="bg-navy-950 min-h-screen">
       <SEO pageKey="home" />
       <HeroSection />
 
       {/* Services overview section */}
-      <section id="services" className="section-container relative">
+      <section id="services" className="section-container relative bg-navy-950">
         <CircuitBackground />
         <div className="relative z-10">
           <SectionHeading
@@ -147,13 +147,13 @@ function HomePage() {
             centered
           />
           <div className="mt-8 max-w-3xl mx-auto text-center space-y-4">
-            <p className="text-body text-lg">
+            <p className="text-gray-300 text-lg">
               We design and build websites, AI-powered chatbots, cloud infrastructure, and custom software
               for businesses across Africa. From automating your customer service with intelligent
               chatbots to building finance and accounting platforms — we bring your vision to life with
               technology that works.
             </p>
-            <p className="text-body">
+            <p className="text-gray-300">
               No matter your industry or business stage, our team delivers solutions that are scalable,
               secure, and built for growth. Join hundreds of businesses already riding the wave of
               digital transformation.
@@ -171,14 +171,14 @@ function HomePage() {
       </section>
 
       {/* The Digital Revolution Section */}
-      <section className="relative py-20 md:py-28">
+      <section className="relative py-20 md:py-28 bg-charcoal-900">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <SectionHeading
             title="The Digital Revolution Is Here"
             subtitle="And Africa is leading the charge"
             centered
           />
-          <div className="mt-8 space-y-6 text-body text-lg leading-relaxed">
+          <div className="mt-8 space-y-6 text-gray-300 text-lg leading-relaxed">
             <p>
               Across the globe, data-driven decision making, artificial intelligence, and cloud computing
               are no longer luxuries — they are necessities. Businesses that fail to adapt risk being left
@@ -192,7 +192,7 @@ function HomePage() {
               leading this charge — and BuildOnCloud is here to ensure your business doesn't just keep
               up, but leads the way.
             </p>
-            <p className="font-semibold text-heading">
+            <p className="font-semibold text-white">
               Whether you're digitising your operations, launching an online presence, or building
               AI-powered tools — the time to act is now.
             </p>
@@ -201,7 +201,7 @@ function HomePage() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="relative py-20 md:py-28 bg-surface-100">
+      <section className="relative py-20 md:py-28 bg-navy-900">
         <NeuralBackground />
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
@@ -220,12 +220,12 @@ function HomePage() {
                 viewport={{ once: true, amount: 0.2 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-                <GlassCard hover className="p-6 text-center">
+                <GlassCard hover className="p-6 text-center bg-white/5 border-white/10 shadow-none">
                   <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-blue-50">
                     <item.icon className="h-7 w-7 text-electric-500" aria-hidden="true" />
                   </div>
-                  <h3 className="text-lg font-semibold text-heading">{item.title}</h3>
-                  <p className="mt-2 text-sm text-body">
+                  <h3 className="text-lg font-semibold text-white">{item.title}</h3>
+                  <p className="mt-2 text-sm text-gray-300">
                     {item.description}
                   </p>
                 </GlassCard>
@@ -236,10 +236,12 @@ function HomePage() {
       </section>
 
       {/* Testimonials Section */}
-      <TestimonialsSection />
+      <div className="bg-charcoal-900">
+        <TestimonialsSection />
+      </div>
 
       {/* FAQ Section */}
-      <section className="relative py-20 md:py-28 bg-surface-100">
+      <section className="relative py-20 md:py-28 bg-navy-900">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Frequently Asked Questions"
@@ -253,7 +255,7 @@ function HomePage() {
       </section>
 
       {/* Newsletter Section */}
-      <section className="relative py-16 md:py-24">
+      <section className="relative py-16 md:py-24 bg-navy-950">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
           <SectionHeading
             title="Stay Updated"

@@ -11,7 +11,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: 'testimonial-2',
-    clientName: 'Mr. Malafa',
+    clientName: 'M. Joseph',
     company: 'Microfinance Institution, Cameroon',
     text: 'BuildOnCloud delivered a complete digital transformation for our institution — from a modern client notification system to streamlined internal operations. Their understanding of our business processes and technical expertise made the entire project seamless.',
     avatar: '/images/testimonials/malafa.webp',
