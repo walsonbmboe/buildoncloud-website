@@ -30,7 +30,7 @@ function Layout() {
       {/* Floating action buttons */}
       <BackToTopButton />
       <WhatsAppButton
-        phoneNumber="237671314091"
+        phoneNumber="447440241808"
         message="Hi BuildOnCloud, I'd like to learn more about your services."
       />
     </div>

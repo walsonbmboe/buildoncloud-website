@@ -107,16 +107,16 @@ export const services: Service[] = [
   {
     id: 'aws-training',
     icon: 'GraduationCap',
-    title: 'AWS Training & Mentorship',
-    description: 'Hands-on AWS training and mentorship for cloud skills',
+    title: 'AWS Mentorship',
+    description: 'Guidance and mentorship for your AWS cloud journey',
     detailedDescription:
-      'Accelerate your cloud journey with hands-on AWS training and mentorship. We offer certification preparation, interactive workshops, 1-on-1 mentoring sessions, and team upskilling programs designed for all experience levels.',
+      'Accelerate your cloud journey with dedicated AWS mentorship. We offer 1-on-1 mentoring sessions, guidance on certification preparation, practical project-based learning, and team upskilling support designed for all experience levels.',
     features: [
-      'AWS certification preparation',
-      'Interactive workshops',
+      'AWS certification guidance',
       '1-on-1 mentoring sessions',
-      'Team upskilling programs',
-      'Hands-on lab exercises',
+      'Project-based learning',
+      'Team upskilling support',
+      'Cloud architecture best practices',
     ],
     useCases: ['Career changers', 'Development teams', 'Enterprise upskilling', 'University students'],
     category: 'training',

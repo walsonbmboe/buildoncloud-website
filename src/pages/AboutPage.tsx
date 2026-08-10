@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 import {
   Globe2,
-  MapPin,
-  Monitor,
   Award,
   Target,
   Eye,
@@ -37,7 +35,7 @@ function AboutPage() {
         variant="gradient"
         title="About BuildOnCloud"
         accentText="BuildOnCloud"
-        subtitle="Empowering African businesses through AWS Cloud, AI & Digital Innovation"
+        subtitle="Your AWS Cloud, AI & Digital Innovation partner — proudly serving clients across Africa, Europe, and beyond"
       />
 
       {/* Section 2: Our Story */}
@@ -47,14 +45,14 @@ function AboutPage() {
             <SectionHeading title="Our Story" centered />
             <div className="mt-8 space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
-                BuildOnCloud was founded with a simple but ambitious mission—to help African businesses
+                BuildOnCloud was founded with a simple but ambitious mission — to help businesses
                 unlock the power of cloud computing, artificial intelligence, and modern digital technologies.
+                Born in Cameroon, we serve clients across Africa, Europe, and wherever businesses are ready to transform.
               </p>
               <p>
-                Many organizations across Africa face challenges such as outdated systems, high IT costs,
+                Many organizations — particularly across Africa and emerging markets — face challenges such as outdated systems, high IT costs,
                 limited technical expertise, and inefficient manual processes. BuildOnCloud exists to solve
-                these challenges by delivering secure, scalable, and affordable digital solutions tailored
-                to the African business environment.
+                these challenges by delivering secure, scalable, and affordable digital solutions.
               </p>
               <p>
                 Rather than simply building websites, we help organizations transform how they operate using
@@ -78,7 +76,7 @@ function AboutPage() {
                   <h3 className="text-xl font-bold text-gray-900">Our Mission</h3>
                 </div>
                 <p className="text-gray-600 leading-relaxed">
-                  To empower businesses across Africa with secure, scalable, and innovative cloud
+                  To empower businesses worldwide with secure, scalable, and innovative cloud
                   technologies that drive sustainable growth and digital transformation.
                 </p>
               </GlassCard>
@@ -93,8 +91,8 @@ function AboutPage() {
                   <h3 className="text-xl font-bold text-gray-900">Our Vision</h3>
                 </div>
                 <p className="text-gray-600 leading-relaxed">
-                  To become Africa's most trusted AWS Cloud and AI consulting company, helping
-                  organizations leverage world-class technology to compete globally.
+                  To become a globally trusted AWS Cloud and AI consulting company, helping
+                  organizations leverage world-class technology to compete on any stage.
                 </p>
               </GlassCard>
             </ScrollReveal>
@@ -114,7 +112,7 @@ function AboutPage() {
               {
                 icon: Lightbulb,
                 title: 'Innovation',
-                description: 'Embracing cutting-edge technologies to deliver forward-thinking solutions for African businesses.',
+                description: 'Embracing cutting-edge technologies to deliver forward-thinking solutions for businesses everywhere.',
               },
               {
                 icon: Rocket,
@@ -176,11 +174,10 @@ function AboutPage() {
                 <div className="mt-6 space-y-4 text-gray-600 leading-relaxed">
                   <p>
                     Walson Baiye Mboe is an AWS-certified Cloud Engineer with a background in Finance
-                    and a passion for helping African businesses leverage technology for growth.
+                    and a passion for helping businesses leverage technology for growth.
                   </p>
                   <p>
-                    He founded BuildOnCloud after recognizing that many organizations across Africa
-                    struggle to adopt modern cloud technologies due to cost, complexity, and limited
+                    He founded BuildOnCloud after recognizing that many organizations — especially in Africa — struggle to adopt modern cloud technologies due to cost, complexity, and limited
                     access to expertise.
                   </p>
                   <p>
@@ -234,57 +231,20 @@ function AboutPage() {
           <ScrollReveal direction="up">
             <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-orange-100 border border-orange-200">
               <Globe2 className="w-4 h-4 text-orange-600" aria-hidden="true" />
-              <span className="text-sm font-medium text-orange-700">Our Focus</span>
+              <span className="text-sm font-medium text-orange-700">Our Roots</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Why Africa?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Our African Heritage</h2>
             <div className="mt-8 space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
-                Africa is home to one of the world's fastest-growing digital economies, yet many
-                businesses still lack access to enterprise-grade cloud technology.
+                Africa is home to one of the world's fastest-growing digital economies. BuildOnCloud was born here — in Cameroon — and our African roots give us a unique perspective on building technology that's accessible, practical, and impactful.
               </p>
               <p>
-                BuildOnCloud exists to bridge that gap by making AWS Cloud, Artificial Intelligence,
-                Automation, and Digital Transformation accessible, affordable, and practical for
-                African organizations.
+                While we serve clients globally, we're especially passionate about making AWS Cloud, AI, and Digital Transformation accessible to African organizations that have been underserved by the technology industry.
               </p>
               <p>
-                Our solutions are designed specifically for startups, SMEs, NGOs, educational
-                institutions, healthcare providers, and enterprises across the continent.
+                From startups and SMEs to NGOs, educational institutions, healthcare providers, and enterprises — we build solutions that work for businesses at every stage, in every market.
               </p>
             </div>
-          </ScrollReveal>
-        </div>
-      </section>
-
-      {/* Section 7: Company Information */}
-      <section className="py-16 md:py-24">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <ScrollReveal direction="up">
-            <GlassCard className="p-8 md:p-10">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="text-center">
-                  <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mx-auto mb-4">
-                    <MapPin className="w-6 h-6 text-electric-500" aria-hidden="true" />
-                  </div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Headquarters</h4>
-                  <p className="text-sm text-gray-600">Buea, South West Region, Cameroon</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-12 h-12 rounded-xl bg-purple-50 flex items-center justify-center mx-auto mb-4">
-                    <Globe2 className="w-6 h-6 text-purple-500" aria-hidden="true" />
-                  </div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Service Coverage</h4>
-                  <p className="text-sm text-gray-600">Serving clients and businesses across Africa</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center mx-auto mb-4">
-                    <Monitor className="w-6 h-6 text-green-500" aria-hidden="true" />
-                  </div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Engagement Model</h4>
-                  <p className="text-sm text-gray-600">Remote-first with virtual consultations and project delivery across Africa</p>
-                </div>
-              </div>
-            </GlassCard>
           </ScrollReveal>
         </div>
       </section>

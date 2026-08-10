@@ -78,4 +78,35 @@ export const portfolioProjects: PortfolioProject[] = [
     ],
     liveUrl: 'https://glawschoolcameroon.netlify.app',
   },
+  {
+    id: 'wubes-kitchen',
+    title: "Wube's Kitchen",
+    shortDescription: 'A home kitchen and catering business website with online ordering, real-time notifications, and an order management dashboard.',
+    fullDescription:
+      "A professional website for Wube's Kitchen, a home kitchen and catering business. Features include a full online ordering system where clients place orders directly, real-time notifications for the owner, and a hosting dashboard for managing all orders efficiently. Delivered in just 2 days.",
+    image: '/images/portfolio/wubes-kitchen.webp',
+    category: 'web',
+    techStack: ['React', 'Tailwind', 'Netlify', 'Notifications API'],
+    objectives: [
+      'Enable clients to place catering orders directly online',
+      'Provide real-time order notifications to the owner',
+      'Build an intuitive order management dashboard',
+    ],
+    liveUrl: 'https://wubeskitchen.co.uk',
+  },
+  {
+    id: 'thriving-mama',
+    title: 'Thriving Mama',
+    shortDescription: 'An NGO website with an AI-powered compassionate chatbot supporting mothers with postpartum depression and maternal mental health conditions.',
+    fullDescription:
+      'A website built for Thriving Mama, an NGO dedicated to helping mothers and families suffering from postpartum depression and other maternal mental health conditions. Features an AI-powered compassionate chatbot that provides immediate support, understands emotional cues, and escalates to trained professionals when it senses a mother needs urgent help.',
+    image: '/images/portfolio/thriving-mama.webp',
+    category: 'ai',
+    techStack: ['React', 'AI Chatbot', 'NLP', 'Tailwind'],
+    objectives: [
+      'Provide immediate compassionate AI support to mothers in need',
+      'Detect urgent situations and escalate to human professionals',
+      'Create an accessible, safe space for maternal mental health resources',
+    ],
+  },
 ];

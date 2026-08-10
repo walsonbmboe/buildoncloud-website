@@ -11,13 +11,13 @@ export const faqItems: FAQItem[] = [
     id: 'faq-2',
     question: 'How much does a website cost?',
     answer:
-      'Our pricing starts at £499 for a Starter package (up to 5 pages with responsive design and basic SEO). The Professional package at £999 includes custom design, CMS integration, and AI chatbot features. Enterprise solutions start at £2,499 for bespoke projects with full-stack development and cloud infrastructure.',
+      'Our Launch package starts at $299 (up to 5 pages with responsive design, WhatsApp integration, and basic SEO). The Growth package at $699 includes custom UI/UX design, CMS, blog, AI chatbot, and advanced SEO. Enterprise solutions start from $1,499 for bespoke projects with AWS cloud infrastructure, AI automation, and dedicated project management.',
   },
   {
     id: 'faq-3',
     question: 'How long does a typical project take?',
     answer:
-      'Timelines vary based on complexity. A standard website takes 2-4 weeks, while larger projects involving AI integration or custom platforms can take 6-12 weeks. We provide a detailed timeline during our initial consultation.',
+      'Our Launch package (standard website) is delivered within 3-5 days. Growth package projects typically take 1-2 weeks depending on complexity. Enterprise solutions with custom development, AI integration, or cloud infrastructure are scoped individually — we provide a detailed timeline during our initial consultation.',
   },
   {
     id: 'faq-4',

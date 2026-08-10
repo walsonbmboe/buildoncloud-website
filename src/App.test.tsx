@@ -14,7 +14,7 @@ describe('App', () => {
       </HelmetProvider>
     )
     expect(
-      screen.getByText('Empowering African Businesses Through Digital Transformation')
+      screen.getByText('Empowering Businesses Through Digital Transformation')
     ).toBeInTheDocument()
   })
 })

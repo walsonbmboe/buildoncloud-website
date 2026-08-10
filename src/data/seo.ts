@@ -4,7 +4,7 @@ export const pageSEO: Record<string, SEOMetadata> = {
   home: {
     title: 'BuildOnCloud | Cloud, AI & Transformation',
     description:
-      'Empowering businesses through cloud engineering, AI solutions, and digital transformation. Professional websites, automation, and AWS training.',
+      'Empowering businesses through cloud engineering, AI solutions, and digital transformation. Professional websites, automation, and AWS training. Proudly serving clients across Africa, Europe, and beyond.',
     ogUrl: 'https://buildoncloud.co.uk/',
     keywords: ['cloud engineering', 'AI solutions', 'digital transformation', 'web development', 'AWS training'],
     structuredData: {
@@ -35,7 +35,7 @@ export const pageSEO: Record<string, SEOMetadata> = {
   about: {
     title: 'About Us | BuildOnCloud Technologies',
     description:
-      'Learn about our mission to empower businesses through cloud, AI, and digital transformation. Meet the team behind BuildOnCloud.',
+      'Learn about our mission to empower businesses through cloud, AI, and digital transformation. Headquartered in Cameroon, serving clients globally.',
     ogUrl: 'https://buildoncloud.co.uk/about',
     keywords: ['about', 'team', 'mission', 'cloud company', 'technology partner'],
   },

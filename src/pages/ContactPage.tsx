@@ -97,7 +97,7 @@ function ContactPage() {
           {/* WhatsApp Button */}
           <ScrollReveal direction="right" delay={0.3}>
             <a
-              href="https://wa.me/237671314091?text=Hi%20BuildOnCloud%2C%20I%27d%20like%20to%20discuss%20a%20project."
+              href="https://wa.me/447440241808?text=Hi%20BuildOnCloud%2C%20I%27d%20like%20to%20discuss%20a%20project."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 w-full px-6 py-4 bg-[#25D366] hover:bg-[#20BD5A] text-white font-semibold rounded-2xl transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#25D366] focus:ring-offset-2 focus:ring-offset-white"

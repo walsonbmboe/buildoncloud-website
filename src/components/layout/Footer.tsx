@@ -101,13 +101,13 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/237671314091"
+                  href="https://wa.me/447440241808"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-gray-400 hover:text-electric-500 transition-colors duration-200 text-sm rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-electric-500"
                 >
                   <MessageCircle className="w-4 h-4 flex-shrink-0" aria-hidden="true" />
-                  <span>+237 671 314 091 (WhatsApp)</span>
+                  <span>+44 07440 241 808 (WhatsApp)</span>
                 </a>
               </li>
               <li>
