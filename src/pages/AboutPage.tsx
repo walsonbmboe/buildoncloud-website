@@ -10,6 +10,7 @@ import {
   Shield,
   Heart,
 } from 'lucide-react';
+import aboutHeroImage from '../assets/Aboutbuildoncloud.jpg';
 import founderImage from '../assets/founder.png';
 import ScrollReveal from '../components/common/ScrollReveal';
 import SectionHeading from '../components/common/SectionHeading';
@@ -17,12 +18,12 @@ import GlassCard from '../components/common/GlassCard';
 import PageHero from '../components/common/PageHero';
 import SEO from '../components/common/SEO';
 
-// AWS Certifications data
 const certifications = [
   { title: 'AWS Certified Solutions Architect – Associate', color: 'from-orange-400 to-orange-600', credlyUrl: 'https://www.credly.com/users/walson-baiye-mboe' },
   { title: 'AWS Certified Data Engineer – Associate', color: 'from-blue-400 to-blue-600', credlyUrl: 'https://www.credly.com/users/walson-baiye-mboe' },
   { title: 'AWS Certified Machine Learning Engineer – Associate', color: 'from-green-400 to-green-600', credlyUrl: 'https://www.credly.com/users/walson-baiye-mboe' },
   { title: 'AWS Artificial Intelligence Practitioner', color: 'from-purple-400 to-purple-600', credlyUrl: 'https://www.credly.com/users/walson-baiye-mboe' },
+  { title: 'Google Data Analytics Professional Certificate', color: 'from-red-400 to-yellow-500', credlyUrl: 'https://www.credly.com/users/walson-baiye-mboe' },
 ];
 
 function AboutPage() {
@@ -32,10 +33,11 @@ function AboutPage() {
 
       {/* Section 1: Hero Banner */}
       <PageHero
-        variant="gradient"
+        variant="image"
+        overlayColor="indigo"
         title="About BuildOnCloud"
-        accentText="BuildOnCloud"
         subtitle="Your AWS Cloud, AI & Digital Innovation partner — proudly serving clients across Africa, Europe, and beyond"
+        customImage={aboutHeroImage}
       />
 
       {/* Section 2: Our Story */}
@@ -191,7 +193,7 @@ function AboutPage() {
                 <div className="mt-8">
                   <h4 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4 flex items-center gap-2">
                     <Award className="w-4 h-4 text-orange-500" aria-hidden="true" />
-                    AWS Certifications
+                    Certifications
                   </h4>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     {certifications.map((cert) => (

@@ -6,6 +6,7 @@ interface PageHeroProps {
   variant?: 'image' | 'gradient';
   overlayColor?: 'blue' | 'purple' | 'teal' | 'indigo';
   accentText?: string;
+  customImage?: string;
 }
 
 const overlayGradients: Record<string, string> = {
@@ -31,7 +32,7 @@ function renderTitle(title: string, accentText?: string) {
   );
 }
 
-function PageHero({ title, subtitle, variant = 'image', overlayColor = 'blue', accentText }: PageHeroProps) {
+function PageHero({ title, subtitle, variant = 'image', overlayColor = 'blue', accentText, customImage }: PageHeroProps) {
   if (variant === 'gradient') {
     return (
       <section
@@ -75,7 +76,7 @@ function PageHero({ title, subtitle, variant = 'image', overlayColor = 'blue', a
   const gradient = overlayGradients[overlayColor];
   return (
     <section className="relative w-full h-[200px] md:h-[300px] overflow-hidden">
-      <img src={heroImage} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover" />
+      <img src={customImage || heroImage} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover" />
       <div className={`absolute inset-0 bg-gradient-to-r ${gradient}`} aria-hidden="true" />
       <div className="relative z-10 flex items-center h-full">
         <div className="mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8">

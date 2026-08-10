@@ -39,7 +39,7 @@ Building a professional website doesn't have to be overwhelming. Start with your
     keywords: ['website', 'business growth', 'digital presence', 'online marketing', 'credibility'],
     featuredImage: '/images/blog/business-website.webp',
     featuredImageAlt: 'A laptop displaying a professional business website with analytics dashboard',
-    publishedDate: '2024-01-15T09:00:00Z',
+    publishedDate: '2025-09-12T09:00:00Z',
     author: 'BuildOnCloud Team',
   },
   {
@@ -80,7 +80,7 @@ Start with one AI integration that addresses your biggest pain point. Whether it
     keywords: ['artificial intelligence', 'small business', 'automation', 'chatbot', 'machine learning'],
     featuredImage: '/images/blog/ai-business.webp',
     featuredImageAlt: 'Abstract illustration of AI neural network connecting to small business icons',
-    publishedDate: '2024-02-20T09:00:00Z',
+    publishedDate: '2025-11-05T09:00:00Z',
     author: 'BuildOnCloud Team',
   },
   {
@@ -125,7 +125,7 @@ Begin by identifying workloads that could benefit from cloud hosting — website
     keywords: ['cloud computing', 'AWS', 'IaaS', 'PaaS', 'SaaS', 'cloud migration'],
     featuredImage: '/images/blog/cloud-computing.webp',
     featuredImageAlt: 'Cloud infrastructure diagram showing connected services and data flow',
-    publishedDate: '2024-03-10T09:00:00Z',
+    publishedDate: '2026-02-18T09:00:00Z',
     author: 'BuildOnCloud Team',
   },
   {
@@ -174,7 +174,7 @@ Start with a focused use case — answering FAQs, booking appointments, or provi
     keywords: ['chatbot', 'customer service', 'AI assistant', 'automation', 'support'],
     featuredImage: '/images/blog/chatbot-service.webp',
     featuredImageAlt: 'Customer interacting with an AI chatbot interface on a mobile device',
-    publishedDate: '2024-04-05T09:00:00Z',
+    publishedDate: '2026-06-03T09:00:00Z',
     author: 'BuildOnCloud Team',
   },
 ];
