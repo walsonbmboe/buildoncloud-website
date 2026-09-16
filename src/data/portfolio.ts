@@ -64,7 +64,7 @@ export const portfolioProjects: PortfolioProject[] = [
   },
   {
     id: 'glaw-school',
-    title: 'GLAW School — God\'s Love & Wisdom School',
+    title: 'GLAW School: God\'s Love & Wisdom School',
     shortDescription: 'A premium, responsive school website for a faith-based Daycare, Bilingual Nursery & Primary School in Kumba, Cameroon.',
     fullDescription:
       'A premium, responsive school website for God\'s Love & Wisdom School (GLAW), a faith-based Daycare, Bilingual Nursery & Primary School in Kumba, Cameroon. Features animated sections, Netlify Forms integration for parent inquiries, SEO optimization, and a modern design system built with React, Tailwind CSS, Framer Motion, and TypeScript.',

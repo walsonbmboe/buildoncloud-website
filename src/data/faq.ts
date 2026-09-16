@@ -17,7 +17,7 @@ export const faqItems: FAQItem[] = [
     id: 'faq-3',
     question: 'How long does a typical project take?',
     answer:
-      'Our Launch package (standard website) is delivered within 3-5 days. Growth package projects typically take 1-2 weeks depending on complexity. Enterprise solutions with custom development, AI integration, or cloud infrastructure are scoped individually — we provide a detailed timeline during our initial consultation.',
+      'Our Launch package (standard website) is delivered within 3-5 days. Growth package projects typically take 1-2 weeks depending on complexity. Enterprise solutions with custom development, AI integration, or cloud infrastructure are scoped individually, and we provide a detailed timeline during our initial consultation.',
   },
   {
     id: 'faq-4',
@@ -29,6 +29,6 @@ export const faqItems: FAQItem[] = [
     id: 'faq-5',
     question: 'Can you help migrate my existing website to the cloud?',
     answer:
-      'Absolutely. We specialise in AWS cloud migrations. We assess your current infrastructure, plan a migration strategy with minimal downtime, and handle the entire process from start to finish — including testing and optimisation.',
+      'Absolutely. We specialise in AWS cloud migrations. We assess your current infrastructure, plan a migration strategy with minimal downtime, and handle the entire process from start to finish, including testing and optimisation.',
   },
 ];

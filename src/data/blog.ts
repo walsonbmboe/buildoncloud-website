@@ -9,7 +9,7 @@ export const blogArticles: BlogArticle[] = [
     content: `
 ## Why Your Business Needs a Website in 2024
 
-In today's digital-first world, a website is no longer a luxury — it's a necessity. Whether you're a sole trader or a growing enterprise, your online presence defines how customers perceive and interact with your brand.
+In today's digital-first world, a website is no longer a luxury. It's a necessity. Whether you're a sole trader or a growing enterprise, your online presence defines how customers perceive and interact with your brand.
 
 ### 1. Credibility and Trust
 
@@ -17,7 +17,7 @@ Over 75% of consumers judge a company's credibility based on its website design.
 
 ### 2. 24/7 Availability
 
-Unlike a physical store, your website works around the clock. Customers can browse your services, read testimonials, and make enquiries at any time — even outside business hours.
+Unlike a physical store, your website works around the clock. Customers can browse your services, read testimonials, and make enquiries at any time, even outside business hours.
 
 ### 3. Reach a Wider Audience
 
@@ -66,7 +66,7 @@ AI analytics tools can process customer data, market trends, and operational met
 
 ### Personalised Marketing
 
-Machine learning algorithms can segment your audience and deliver personalised content, offers, and recommendations — the kind of targeted marketing that was previously only available to enterprises with large marketing teams.
+Machine learning algorithms can segment your audience and deliver personalised content, offers, and recommendations, the kind of targeted marketing that was previously only available to enterprises with large marketing teams.
 
 ### Affordable Entry Points
 
@@ -119,7 +119,7 @@ Amazon Web Services (AWS) holds the largest market share in cloud computing. Wit
 
 ### Getting Started with Cloud
 
-Begin by identifying workloads that could benefit from cloud hosting — websites, email, file storage, or databases are common starting points. A gradual migration reduces risk while delivering immediate benefits.
+Begin by identifying workloads that could benefit from cloud hosting: websites, email, file storage, or databases are common starting points. A gradual migration reduces risk while delivering immediate benefits.
     `.trim(),
     category: 'cloud',
     keywords: ['cloud computing', 'AWS', 'IaaS', 'PaaS', 'SaaS', 'cloud migration'],
@@ -148,7 +148,7 @@ Your customers don't only have questions during business hours. A chatbot ensure
 
 ### Handling Volume at Scale
 
-During peak periods — product launches, seasonal sales, or marketing campaigns — chatbots handle hundreds of simultaneous conversations without degradation in response quality or speed.
+During peak periods (product launches, seasonal sales, or marketing campaigns), chatbots handle hundreds of simultaneous conversations without degradation in response quality or speed.
 
 ### Smart Escalation
 
@@ -168,7 +168,7 @@ Businesses implementing chatbots typically see:
 
 ### Implementation Considerations
 
-Start with a focused use case — answering FAQs, booking appointments, or providing order status updates. Train the chatbot on your actual customer queries, monitor its performance, and expand its capabilities over time.
+Start with a focused use case: answering FAQs, booking appointments, or providing order status updates. Train the chatbot on your actual customer queries, monitor its performance, and expand its capabilities over time.
     `.trim(),
     category: 'ai',
     keywords: ['chatbot', 'customer service', 'AI assistant', 'automation', 'support'],

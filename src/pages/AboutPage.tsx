@@ -36,7 +36,7 @@ function AboutPage() {
         variant="image"
         overlayColor="indigo"
         title="About BuildOnCloud"
-        subtitle="Your AWS Cloud, AI & Digital Innovation partner — proudly serving clients across Africa, Europe, and beyond"
+        subtitle="Your AWS Cloud, AI & Digital Innovation partner, proudly serving clients across Africa, Europe, and beyond"
         customImage={aboutHeroImage}
       />
 
@@ -47,12 +47,12 @@ function AboutPage() {
             <SectionHeading title="Our Story" centered />
             <div className="mt-8 space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
-                BuildOnCloud was founded with a simple but ambitious mission — to help businesses
+                BuildOnCloud was founded with a simple but ambitious mission: to help businesses
                 unlock the power of cloud computing, artificial intelligence, and modern digital technologies.
                 Born in Cameroon, we serve clients across Africa, Europe, and wherever businesses are ready to transform.
               </p>
               <p>
-                Many organizations — particularly across Africa and emerging markets — face challenges such as outdated systems, high IT costs,
+                Many organizations, particularly across Africa and emerging markets, face challenges such as outdated systems, high IT costs,
                 limited technical expertise, and inefficient manual processes. BuildOnCloud exists to solve
                 these challenges by delivering secure, scalable, and affordable digital solutions.
               </p>
@@ -179,7 +179,7 @@ function AboutPage() {
                     and a passion for helping businesses leverage technology for growth.
                   </p>
                   <p>
-                    He founded BuildOnCloud after recognizing that many organizations — especially in Africa — struggle to adopt modern cloud technologies due to cost, complexity, and limited
+                    He founded BuildOnCloud after recognizing that many organizations, especially in Africa, struggle to adopt modern cloud technologies due to cost, complexity, and limited
                     access to expertise.
                   </p>
                   <p>
@@ -238,13 +238,13 @@ function AboutPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Our African Heritage</h2>
             <div className="mt-8 space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
-                Africa is home to one of the world's fastest-growing digital economies. BuildOnCloud was born here — in Cameroon — and our African roots give us a unique perspective on building technology that's accessible, practical, and impactful.
+                Africa is home to one of the world's fastest-growing digital economies. BuildOnCloud was born here in Cameroon, and our African roots give us a unique perspective on building technology that's accessible, practical, and impactful.
               </p>
               <p>
                 While we serve clients globally, we're especially passionate about making AWS Cloud, AI, and Digital Transformation accessible to African organizations that have been underserved by the technology industry.
               </p>
               <p>
-                From startups and SMEs to NGOs, educational institutions, healthcare providers, and enterprises — we build solutions that work for businesses at every stage, in every market.
+                From startups and SMEs to NGOs, educational institutions, healthcare providers, and enterprises, we build solutions that work for businesses at every stage, in every market.
               </p>
             </div>
           </ScrollReveal>

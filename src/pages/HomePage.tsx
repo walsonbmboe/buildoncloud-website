@@ -52,7 +52,7 @@ function HeroSection() {
               className="mt-6 text-lg text-body md:text-xl"
               variants={variants.fadeUp}
             >
-              From startups to enterprises, we deliver intelligent cloud, AI, and automation solutions that help businesses compete in the digital economy — no matter where you are. Proudly serving clients across Africa, Europe, and beyond.
+              From startups to enterprises, we deliver intelligent cloud, AI, and automation solutions that help businesses compete in the digital economy, no matter where you are. Proudly serving clients across Africa, Europe, and beyond.
             </motion.p>
 
             <motion.div
@@ -102,12 +102,12 @@ const valuePropositions = [
   { 
     icon: Lightbulb, 
     title: 'Global Reach, African Roots', 
-    description: 'We understand the African market — the challenges, the opportunities, and what businesses here need to thrive. Whether you\'re in Cameroon, Nigeria, Kenya, or anywhere on the continent, we\'ve got you covered. And if you\'re in Europe or beyond, we deliver the same world-class quality.' 
+    description: 'We understand the African market: the challenges, the opportunities, and what businesses here need to thrive. Whether you\'re in Cameroon, Nigeria, Kenya, or anywhere on the continent, we\'ve got you covered. And if you\'re in Europe or beyond, we deliver the same world-class quality.' 
   },
   { 
     icon: TrendingUp, 
     title: 'Growth-Focused Solutions', 
-    description: 'Every product we build is designed to scale with your business. Start small, grow big — our architecture supports your journey from startup to enterprise.' 
+    description: 'Every product we build is designed to scale with your business. Start small, grow big. Our architecture supports your journey from startup to enterprise.' 
   },
   { 
     icon: Shield, 
@@ -117,7 +117,7 @@ const valuePropositions = [
   { 
     icon: Clock, 
     title: 'Fast Delivery, Real Results', 
-    description: 'We don\'t just build — we deliver. Our agile approach means you see working results within weeks, not months. Your time is valuable, and we respect it.' 
+    description: 'We don\'t just build, we deliver. Our agile approach means you see working results within weeks, not months. Your time is valuable, and we respect it.' 
   },
   { 
     icon: Users, 
@@ -127,7 +127,7 @@ const valuePropositions = [
   { 
     icon: BookOpen, 
     title: 'Future-Proof Technology', 
-    description: 'We use the latest proven technologies — React, AWS, AI/ML — ensuring your investment stays relevant and competitive for years to come.' 
+    description: 'We use the latest proven technologies like React, AWS, and AI/ML, ensuring your investment stays relevant and competitive for years to come.' 
   },
 ];
 
@@ -150,7 +150,7 @@ function HomePage() {
             <p className="text-body text-lg">
               We design and build websites, AI-powered chatbots, cloud infrastructure, and custom software
               for businesses worldwide. From automating your customer service with intelligent
-              chatbots to building finance and accounting platforms — we bring your vision to life with
+              chatbots to building finance and accounting platforms, we bring your vision to life with
               technology that works.
             </p>
             <p className="text-body">
@@ -181,18 +181,18 @@ function HomePage() {
           <div className="mt-8 space-y-6 text-body text-lg leading-relaxed">
             <p>
               Across the globe, data-driven decision making, artificial intelligence, and cloud computing
-              are no longer luxuries — they are necessities. Businesses that fail to adapt risk being left
+              are no longer luxuries. They are necessities. Businesses that fail to adapt risk being left
               behind. From Douala to Lagos, London to Nairobi, companies everywhere are embracing digital
               transformation to cut costs, reach more customers, and operate smarter.
             </p>
             <p>
               Africa is experiencing a technology revolution. Mobile-first economies, a young tech-savvy
               population, and rapidly growing digital infrastructure mean the continent is leapfrogging
-              traditional business models entirely. BuildOnCloud was born here — and we bring that innovative spirit to every client, wherever they are.
+              traditional business models entirely. BuildOnCloud was born here, and we bring that innovative spirit to every client, wherever they are.
             </p>
             <p className="font-semibold text-heading">
               Whether you're digitising your operations, launching an online presence, or building
-              AI-powered tools — the time to act is now.
+              AI-powered tools, the time to act is now.
             </p>
           </div>
         </div>
